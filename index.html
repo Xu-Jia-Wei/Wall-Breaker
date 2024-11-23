@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>破壁者行动</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title-box">破壁者行动</div>
+        <div class="game-area">
+            <div class="background" id="background"></div>
+            <div id="dialog-box" class="dialog-box">请输入用户名以开始行动...</div>
+            <div id="player-input-area">
+                <input type="text" id="player-name-input" placeholder="请输入玩家名" />
+                <button id="start-button" disabled>开始行动</button>
+            </div>
+            <button id="restart-button" style="display:none;">重新开始</button>
+            <button id="music-toggle" style="position: absolute; top: 10px; right: 10px;">关闭音乐</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
